@@ -17,7 +17,6 @@ a:visited
 }
 a:hover 
 {
-	border-bottom: 1px solid;
 	background: #19197f;
 }
 a:active 
@@ -35,7 +34,7 @@ a:active
 	padding: 0;
 	display: flex;
 	justify-content: center;
-	background-color: #19197f;
+	background-color: #FFFFFF;
 }
 .nav li a 
 {
