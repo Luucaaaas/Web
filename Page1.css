@@ -51,32 +51,28 @@ a:active
   
 .navbar a 
 {
-	color: #18161f;
-	text-decoration: none;
+	color: #000000;
 	font-size: 24px;
 	font-weight: bold;
-	letter-spacing: 1px;
 }
-  
-  .navbar a:hover {
+
+.navbar a:hover {
 	display: block;
 	color: #FFFFFF;
 	background: #000000;
 
-  }
+}
 
-
-
-  .navbar ul ul {
+.navbar ul ul 
+{
 	display: none;
 	position: absolute;
-	top: 100%;
-	left: 0;
-	z-index: 1;
-	background-color: #fff;
-  }
+	text-align: left ;
+
+}	
   
-  .navbar ul li:hover > ul {
+.navbar ul li:hover ul 
+{
 	display: block;
   }
   
