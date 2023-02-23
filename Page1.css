@@ -15,73 +15,80 @@ a:visited
 {
 	color: #ffffff;
 }
-a:hover 
-{
-	background: #19197f;
-}
+
 a:active 
 {
-	background: #19197f;
 	color: #ffffff;
 	text-decoration: none;
 }
-
-
-.nav
-{
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	display: flex;
-	justify-content: center;
-	background-color: #FFFFFF;
-}
-.nav li a 
-{
-	display: block;
-	padding: 14px 16px;
-}
-.nav li a:hover 
-{
-	background-color: #FFFFFF;
-}
   
 
-
-
-
-  .navbar {
+.navbar 
+{
 	position: sticky;
 	top: 1px;
-	text-decoration: underline;
-	background-color: #f8f8f8;
-	border-bottom: 1px solid #ddd;
-	height: 60px;
-  }
-  
-  .navbar ul {
+	text-decoration: none;
+	background-color: #FFFFFF;
+	height: 108px;
+}
+.navbar ul 
+{
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	display: flex;
 	align-items: center;
 	justify-content: center;
 	height: 100%;
-  }
+	display: flex;
+}
   
-  .navbar li {
-	margin: 0 20px;
-  }
+.navbar li 
+{
+	margin: 25px;
+	position: relative;
+	background-color: #ffffff;
+}
   
-  .navbar a {
+.navbar a 
+{
 	color: #18161f;
 	text-decoration: none;
 	font-size: 24px;
 	font-weight: bold;
 	letter-spacing: 1px;
-  }
+}
   
   .navbar a:hover {
+	display: block;
 	color: #FFFFFF;
+	background: #000000;
+
+  }
+
+
+
+  .navbar ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1;
+	background-color: #fff;
   }
   
+  .navbar ul li:hover > ul {
+	display: block;
+  }
+  
+  .navbar ul ul li {
+	width: 250px;
+	margin: 0;
+	border-bottom: 1px solid #000000;
+  }
+  
+
+
+.ign a:hover 
+{
+	background: #ffffff
+}
