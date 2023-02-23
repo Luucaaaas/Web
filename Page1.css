@@ -46,3 +46,42 @@ a:active
 	background-color: #FFFFFF;
 }
   
+
+
+
+
+  .navbar {
+	position: sticky;
+	top: 1px;
+	background-color: #f8f8f8;
+	border-bottom: 1px solid #ddd;
+	height: 60px;
+  }
+  
+  .navbar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+  }
+  
+  .navbar li {
+	margin: 0 20px;
+  }
+  
+  .navbar a {
+	color: #333;
+	text-decoration: none;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+  }
+  
+  .navbar a:hover {
+	color: #f22;
+  }
+  
