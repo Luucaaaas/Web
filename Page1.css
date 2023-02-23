@@ -4,6 +4,7 @@ body
 	background: #18161f ;     /*couleur du fond*/  
     color: white;
     font-family: 'Kantumruy Pro', sans-serif;
+	flex-direction: row;
 } 
 
 
@@ -41,22 +42,20 @@ a:active
 	height: 100%;
 	display: flex;
 }
-  
 .navbar li 
 {
 	margin: 25px;
 	position: relative;
 	background-color: #ffffff;
 }
-  
 .navbar a 
 {
 	color: #000000;
 	font-size: 24px;
 	font-weight: bold;
 }
-
-.navbar a:hover {
+.navbar a:hover
+{
 	display: block;
 	color: #FFFFFF;
 	background: #000000;
@@ -74,17 +73,31 @@ a:active
 .navbar ul li:hover ul 
 {
 	display: block;
-  }
+}
   
-  .navbar ul ul li {
+.navbar ul ul li
+{
 	width: 250px;
 	margin: 0;
 	border-bottom: 1px solid #000000;
-  }
+}
   
-
 
 .ign a:hover 
 {
 	background: #ffffff
+}
+
+
+.image 
+{
+	display: flex;
+}
+.image1
+{
+	flex: 1;
+}
+.image2
+{
+	flex: 1;
 }
