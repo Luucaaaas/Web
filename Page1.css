@@ -31,6 +31,7 @@ a:active
 	text-decoration: none;
 	background-color: #FFFFFF;
 	height: 108px;
+	width: 100%;
 }
 .navbar ul 
 {
@@ -89,15 +90,8 @@ a:active
 }
 
 
-.image 
+.image
 {
-	display: flex;
-}
-.image1
-{
-	flex: 1;
-}
-.image2
-{
-	flex: 1;
-}
+ text-align: left;
+} 
+
